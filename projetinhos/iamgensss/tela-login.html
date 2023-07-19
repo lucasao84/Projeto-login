@@ -24,7 +24,7 @@
             <form action="tela.php" method="post" autocomplete="off">
            
            
-            <div>
+            <div class="tel">
                 <span class="material-symbols-outlined">
                     person
                     </span>
@@ -34,16 +34,19 @@
         
         
             
-            <div>
+            <div class="tel">
                 <span class="material-symbols-outlined">
                     vpn_key
                     </span>
-                <input type="password" name="senha" id="isenha" placeholder="Min 8 dig..." minlength="8" autocomplete="current-password">
-                <label for="isenha">Senha</label></form>
+                <input type="password" name="senha" id="isenha" placeholder="Min 8 dig..." minlength="8" autocomplete="current-password" required>
+                <label for="isenha">Senha</label>
             </div>
+        
 
-            <input type="submit" value="Entra">
-            <a href="esqueci.html">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
+            
+                <input type="submit" value="Entra">
+                <a href="esqueci.html" class="boton">Esqueci a senha <span class="botao"></span></a>
+           </form>
 
         </section>
 
