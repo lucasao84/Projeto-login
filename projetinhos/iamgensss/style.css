@@ -23,7 +23,7 @@ main {
 #logo {
     position: absolute;
     width: 275px;
-    height: 550px;
+    height: 520px;
     background-color: white;
     border-radius: 20px;
     top: 50%;
@@ -37,7 +37,7 @@ main {
 }
 
 #imagem {
-    background-image: url(../iamgensss/pexels-ayşenaz-bilgin-17375562.jpg);
+    background-image: url(pexels-ayşenaz-bilgin-17375562.jpg);
     background-repeat: no-repeat;
     height: 200px;
     background-size: cover;
@@ -132,7 +132,13 @@ width: 41px;
 height: 52px;
 padding: 5px;
 
-transform: translatey( 5px);
+transform: translatey( -3px);
+
+}
+
+form > div.tel {
+    width: 265px;
+    height: 40px;
 
 }
 
@@ -140,9 +146,9 @@ form > div.tel > input {
     
     font-size: 1em;
     border-radius: 8px;
-    width: 83%;
-    height: 60px;
-    transform: translateY(-2px);
+    width: 82%;
+    height: 38px;
+    transform: translateY(-12.4px);
     
     
 }

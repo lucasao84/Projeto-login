@@ -4,6 +4,7 @@
     #logo { 
         width:700px;
         float: left;
+        height: 305px;
     }
     
     #imagem {
@@ -51,20 +52,39 @@
 }
 form > a.boton:hover {
     color: white;
-}
+}form > div.tel {
+    width: 480px;
+    height: 40px;
 
 }
+form > div.tel > input {
+
+    font-size: 1em;
+    border-radius: 8px;
+    width: 90%;
+    height: 38px;
+    transform: translateY(-12.4px);
+    
+    
+}
+}
+
+
+
+
 
 @media only screen and (min-width: 992px) {
     #logo{
         width: 950px;
         float: left;
+        height: 310px;
     }
 
     #imagem {
         float: right;
        height: 500px;
        width: 40%;
+       background-position: center center;
     }
 
     #formulario h1 {
@@ -107,5 +127,21 @@ form > a.boton:hover {
     }
     form > a.boton:hover {
         color: white;
+    }
+
+    form > div.tel {
+        width: 560px;
+        height: 40px;
+    
+    }
+    form > div.tel > input {
+    
+        font-size: 1em;
+        border-radius: 8px;
+        width: 91.5%;
+        height: 38px;
+        transform: translateY(-12.4px);
+        
+        
     }
 }
