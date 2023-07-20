@@ -8,7 +8,7 @@
 }
 
 body, html {
-    background-color: #D90452;
+    background-image: linear-gradient(to top, #b8295d, #75283d );
     width: 100vw;
     height: 100vh;
 }
@@ -70,7 +70,7 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover {
-    background-color: #b6479e;
+    background-image: linear-gradient(to top, #b8295d, #75283d );
     color: white;
     border: 2px solid black;  
 }
@@ -88,7 +88,7 @@ form > a {
     border-radius: 10px;
 }
 form > a:hover {
-    background-color: #ce5cb1;
+    background-image: linear-gradient(to top, #b8295d, #75283d );
     color: white;
     border: 2px solid black;
 }
