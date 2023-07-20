@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela-formulario</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="logo">
+         <div id="imagem">
+            foto
+         </div>
+         <div id="formulario">
+            <h1>Login</h1>
+            <p>Seja bem vindo(a) para voce vincular em sua conta e necessario Eque voce faça o login desejamos que você tenha uma otima experiencia</p>
+         </div>  
+         
+         <form action="tela.php" method="post" autocomplete="on">
+            <div class="campo">
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+             <input type="email" name="email" id="imail" required autocomplete="email" placeholder="Digite sua senha...">
+             <label for="imail">Login</label>
+            </div>
+            <div class="campo">
+                <span class="material-symbols-outlined">
+                    vpn_key
+                    </span>
+            <input type="password" name="senha" id="isenha" required autocomplete="new-password" minlength="8" placeholder="min 8 digitos...">
+            <label for="isenha">Senha</label>
+            </div>
+
+            <input type="submit" value="Entra">
+            <a href="#">Esqueci a senha</a>
+
+         </form>
+        </section>
+
+
+    </main>
+</body>
+</html>
