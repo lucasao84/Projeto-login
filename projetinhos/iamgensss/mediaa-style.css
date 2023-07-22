@@ -1,73 +1,17 @@
 @charset "UTF-8";
 
-
-
-@charset "UTF-8";
-
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-    #logo { 
-        width:700px;
-        float: left;
-        height: 330px;
-    }
+@media only screen and (min-width: 768px) and (max-width:992px) {
     
+    #logo {
+        width: 700px;
+        height: 330px ;
+        margin: auto;
+        float: left;
+    }
     #imagem {
         float: right;
-        height: 500px;
-        width: 30%;
+        height: 330px;
+        background-size: cover;
+        background-position: center center;
     }
-    
-     #formulario h1 {
-        font-size: 2.0em;
-     }
-
-    #formulario > p {
-        font-size:1.2em ;
-    }
-    form >  input[type=submit] {
-        display: block;
-        width: 68% ;
-        height: 40px;
-        cursor: pointer;
-        border-radius: 5px;
-        border: none;
-        background-color: rgb(98, 189, 98);
-        
-        margin-top: 10px;
-        
-    
-    }
-
-    form > a.boton {
-        display: block;
-        width: 68%;
-        border: 1px solid rgb(17, 116, 17);
-        height: 40px;
-        text-align: center;
-        float: left;
-        margin-left: 8px;
-        
-        border-radius: 5px;
-        padding-top: 8px;
-        text-decoration: none;
-        color: rgb(7, 7, 7);
-        
-        margin-top: 10px;
-}
-form > a.boton:hover {
-    color: white;
-}form > div.tel {
-    width: 480px;
-    height: 40px;
-
-}
-form > div.tel > input {
-
-    font-size: 1em;
-    border-radius: 8px;
-    width: 90%;
-    height: 38px;
-    transform: translateY(-12.4px);
-    
-    
 }
