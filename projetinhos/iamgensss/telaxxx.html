@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telax</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="stylex.css">
     <link rel="stylesheet" href="mediaa-style.css">
 </head>
@@ -17,15 +18,19 @@
             <h1>Login</h1>
             <p>Bem vindo(a) para entra na sua conta orientamos que faça o login com seu usuario e senha</p>
 
-            <form action="#" method="post">
+            <form action="#" method="post" autocomplete="on">
                 <div class="campo" >
-                
-                <input type="email" name="email" id="imail">
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
+                <input type="email" name="email" id="imail" required placeholder="Digite seu E-mail..." autocomplete="email">
                 <label for="imail">E-mail</label>
                 </div>
                 <div class="campo">
-                
-                <input type="password" name="senha" id="isenha">
+                    <span class="material-symbols-outlined">
+                        vpn_key
+                        </span>
+                <input type="password" name="senha" id="isenha" required placeholder="min 8 digitos..." autocomplete="new-password" minlength="8">
                 <label for="senha">Senha</label>
 
                 
